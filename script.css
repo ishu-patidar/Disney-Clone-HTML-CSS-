@@ -1,0 +1,349 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0px;
+}
+
+.main {
+
+
+    background-image: url("first1.jpg");
+    /* background-position: center center; */
+    background-size: cover;
+    /* background-size: 1500, 1620; */
+    background-repeat: no-repeat;
+    height: 108vh;
+    position: relative;
+    /* overflow: auto; */
+
+}
+
+
+nav {
+    /* Or div if you only want to target the div */
+    display: flex;
+    justify-content: flex-end;
+    /* Aligns items to the end (right) */
+
+}
+
+
+.btn {
+    padding: 13px 15px;
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    /* ...other styles... */
+    margin-right: 40px;
+    /* Add 20px space to the right */
+
+
+}
+
+.hero {
+    /* font-family: 'Poppins', sans-serif; */
+    color: white;
+    height: 875px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 15px;
+    padding: 0px;
+    text-align: center;
+}
+
+.hero> :first-child {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: -.18px;
+    margin-bottom: 0;
+    color: #f9f9f9;
+    font-weight: 550;
+    line-height: 1.1;
+
+}
+
+.hero :nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero :nth-child(3) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: silver;
+}
+
+.hero :nth-child(5) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    color: silver;
+}
+
+.hero :nth-child(6) {
+    font-family: 'Poppins', sans-serif;
+    color: silver;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.hero-buttons {
+
+    color: white;
+    /* font-size: 5px; */
+    /* font-weight: 400; */
+    line-height: 1.5;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+
+.btn1 {
+    background: #02d6e8;
+    /* border: none; */
+    border: 1px solid #31343e;
+    border-radius: 4px;
+    color: #02172a;
+    font-size: 1px;
+    line-height: 19px;
+    padding: 19px 10px 9px 15px;
+    /* border-radius: 5px; */
+    /* font-family: Inspire, sans-serif; */
+    /* font-weight: 100; */
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.hero .hero-buttons input {
+    font-family: 'Poppins', sans-serif;
+    padding: 19px 200px 9px 15px;
+    color: silver;
+    font-weight: 100;
+    font-size: 15px;
+    background-color: #31343e;
+    border: 1px solid #31343e;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 4px;
+
+
+}
+
+.main1 {
+
+
+    background-image: url("second.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 101vh;
+    position: relative;
+    /* padding: 50px; */
+    /* margin: -142px; */
+    margin-top: -156px;
+
+
+}
+
+
+.hero1 {
+    /* font-family: 'Poppins', sans-serif; */
+    color: white;
+    height: 875px;
+    display: flex;
+    /* align-items: left; */
+    /* justify-content: left; */
+    flex-direction: column;
+    position: relative;
+    gap: 15px;
+    padding-left: 30vw;
+    /* text-align: left; */
+    right: 400px;
+}
+
+.hero1> :first-child {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    /* text-align: center; */
+    margin-top: 230px;
+    letter-spacing: -.18px;
+    margin-bottom: 0;
+    color: #f9f9f9;
+    font-weight: 400;
+    line-height: 1.4;
+
+}
+
+.hero1 :nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    /* text-align: center; */
+    color: silver;
+}
+
+.hero1 :nth-child(3) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    /* text-align: center; */
+    color: silver;
+}
+
+.main2 {
+
+    background-image: url("third.jpg");
+    /* background-color:  #040714;; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    /* padding: 54px; */
+
+}
+
+section.hero2 {
+
+    display: flex;
+    padding: 50px 20px;
+    background-color: #040714;
+}
+
+section,
+.hero2 :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 100px;
+    color: white;
+
+}
+
+section,
+.hero2 :nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 100px;
+    color: grey;
+
+}
+
+
+.hero2 {
+    /* font-family: 'Poppins', sans-serif; */
+    color: white;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 15px;
+    /* padding-left: 30px */
+    text-align: center;
+
+}
+
+
+.faq h2 {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.faq {
+    color: white;
+    background: #040714;
+    padding: 40px;
+
+
+}
+
+
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+    padding: 20px;
+    max-width: 85vw;
+    margin: 14px auto;
+    cursor: pointer;
+
+}
+
+#services {
+    /* margin: 20px; */
+    display: flex;
+    background: #040714;
+
+}
+
+#services .box {
+    color: white;
+    padding: 20px;
+    margin: 3px;
+    border-radius: 0px;
+    background-color: #040714;
+    text-align: center;
+    height: 300px;
+
+}
+
+img {
+
+    display: block;
+    height: 10px;
+    width: 20%;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+#services .box img {
+    height: 90px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p {
+    font-family: 'Baloo Bhai 2', cursive;
+}
